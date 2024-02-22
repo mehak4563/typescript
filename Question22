@@ -1,0 +1,11 @@
+let numbers: number[] = [1, 2, 3, 4, 5];
+
+let indexWithError = 10;
+let value = numbers[indexWithError];  //error throw
+
+if (indexWithError >= 0 && indexWithError < numbers.length) {
+    value = numbers[indexWithError];
+    console.log("Value at index", indexWithError, "is", value);
+} else {
+    console.log("Index", indexWithError, "is out of bounds.");
+}
