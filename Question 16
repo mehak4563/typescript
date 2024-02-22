@@ -1,0 +1,25 @@
+let originalGuestList: string[] = ["Amna", "Alesha", "Bismah"];
+
+console.log("Original Dinner Invitations:");
+console.log(`Dear ${originalGuestList[0]},\n\tYou are invited to dinner. We would love to have your company.`);
+console.log(`Dear ${originalGuestList[1]},\n\tYou are invited to lunch. Your presence would be an honor.`);
+console.log(`Dear ${originalGuestList[2]},\n\tYou are invited to brunch. Your wisdom and insights would be cherished.`);
+
+let guestUnableToAttend: string = originalGuestList[1]; 
+let replacementGuest: string = "Mehak";
+originalGuestList[originalGuestList.indexOf(guestUnableToAttend)] = replacementGuest;
+
+
+console.log(`\nUnfortunately, ${guestUnableToAttend} can't make it.`);
+
+
+console.log("\nGood news! A bigger dinner table is available.");
+
+originalGuestList.unshift("Maham"); 
+originalGuestList.splice(2, 0, "Grace Hopper"); 
+originalGuestList.push("Alan Turing"); 
+
+console.log("\nUpdated Dinner Invitations:");
+originalGuestList.forEach((guest, index) => {
+  console.log(`Dear ${guest},\n\tYou are invited to dinner. We would love to have your company.`);
+});
