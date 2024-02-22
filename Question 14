@@ -1,0 +1,6 @@
+let guestList: string[] = ["Amna", "Alesha", "bismah"];
+
+console.log("Dinner Invitations:");
+console.log(`Dear ${guestList[0]},\n\tYou are invited to dinner. We would love to have your company.`);
+console.log(`Dear ${guestList[1]},\n\tYou are invited to lunch. Your presence would be an honor.`);
+console.log(`Dear ${guestList[2]},\n\tYou are invited to brunch. Your wisdom and insights would be cherished.`);
