@@ -1,0 +1,5 @@
+let personNameWithWhitespace: string = "\t John Doe \n";
+
+console.log("Name with Whitespace:", personNameWithWhitespace);
+let cleanedName: string = personNameWithWhitespace.trim();
+console.log("Cleaned Name:", cleanedName);
