@@ -1,0 +1,3 @@
+let originalGuestList: string[] = ["Amna", "Alesha", "Bismah"];
+
+console.log(`Number of People Invited to Dinner: ${originalGuestList.length}`);
