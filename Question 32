@@ -1,0 +1,11 @@
+let currentUsers: string[] = ['Alesha', 'Bismah', 'Chahat', 'Daniyal', 'Esha'];
+
+let newUsers: string[] = ['Bismah', 'Farzana', 'Ghulam', 'Javeiya', 'Mehak'];
+
+for (let newUser of newUsers) {
+    if (currentUsers.some(existingUser => existingUser.toLowerCase() === newUser.toLowerCase())) {
+        console.log(`Sorry, the username '${newUser}' is not available. Please enter a new username.`);
+    } else {
+        console.log(`Congratulations! The username '${newUser}' is available.`);
+    }
+}
