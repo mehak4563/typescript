@@ -1,0 +1,7 @@
+let names: string[] = ["ali", "amna", "alesha", "bismah"];
+
+console.log("Greetings to Friends:");
+console.log("1. Hello, " + names[0] + "! How are you today?");
+console.log("2. Hello, " + names[1] + "! How are you today?");
+console.log("3. Hello, " + names[2] + "! How are you today?");
+console.log("4. Hello, " + names[3] + "! How are you today?");
