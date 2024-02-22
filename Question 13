@@ -1,0 +1,8 @@
+let transportationModes: string[] = ["car", "motorcycle", "bicycle", "boat", "plane"];
+
+console.log("My Favorite Modes of Transportation:");
+console.log("1. I  like to own a " + transportationModes[0] + ".");
+console.log("2. I  love to ride a " + transportationModes[1] + ".");
+console.log("3. Riding a " + transportationModes[2] + " is a great way to stay active.");
+console.log("4. It  be fun to sail on a " + transportationModes[3] + ".");
+console.log("5. Traveling by " + transportationModes[4] + " can be exciting.");
