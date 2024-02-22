@@ -1,0 +1,26 @@
+let book1: { title: string, author: string, year: number } = {
+    title: "The Great Gatsby",
+    author: "F. Scott Fitzgerald",
+    year: 1925
+  };
+  
+  let book2: { title: string, author: string, year: number } = {
+    title: "To Kill a Mockingbird",
+    author: "Harper Lee",
+    year: 1960
+  };
+  
+  let book3: { title: string, author: string, year: number } = {
+    title: "1984",
+    author: "George Orwell",
+    year: 1949
+  };
+  
+  console.log("Books Information:");
+  console.log(`1. Title: ${book1.title}, Author: ${book1.author}, Year: ${book1.year}`);
+  console.log(`2. Title: ${book2.title}, Author: ${book2.author}, Year: ${book2.year}`);
+  console.log(`3. Title: ${book3.title}, Author: ${book3.author}, Year: ${book3.year}`);
+  
+
+
+
