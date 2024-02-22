@@ -1,0 +1,21 @@
+let favfruit: string[] = ['banana', 'apple', 'strawberry'];
+
+if (favfruit.indexOf('banana') !== -1) {
+    console.log("You really like bananas!");
+}
+
+if (favfruit.indexOf('apple') !== -1) {
+    console.log("You really like apples!");
+}
+
+if (favfruit.indexOf('strawberry') !== -1) {
+    console.log("You really like strawberries!");
+}
+
+if (favfruit.indexOf('orange') !== -1) {
+    console.log("You really like oranges!");
+}
+
+if (favfruit.indexOf('kiwi') !== -1) {
+    console.log("You really like kiwis!");
+}
