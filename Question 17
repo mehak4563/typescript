@@ -1,0 +1,21 @@
+let guests: string[] = ["Alesha", "Amna", "Bismah", "faiq", "Maham"];
+
+console.log("Due to a delay in the dinner table delivery, I can only invite two people for dinner.");
+
+while (guests.length > 2) {
+    const removedGuest: string | undefined = guests.pop();
+    if (removedGuest) {
+        console.log(`Sorry ${removedGuest}, I can't invite you to dinner.`);
+    }
+}
+
+for (const remainingGuest of guests) {
+    console.log(`${remainingGuest}, you're still invited to dinner.`);
+}
+
+guests.pop();
+guests.pop();
+
+
+console.log("Updated guest list:", guests);
+
