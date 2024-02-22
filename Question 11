@@ -1,0 +1,7 @@
+let names: string[] = ["ali", "amna", "alesha", "bismah"];
+
+console.log("Names of Friends:");
+console.log("1. " + names[0]);
+console.log("2. " + names[1]);
+console.log("3. " + names[2]);
+console.log("4. " + names[3]);
