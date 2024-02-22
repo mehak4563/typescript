@@ -16,8 +16,8 @@ console.log(`\nUnfortunately, ${guestUnableToAttend} can't make it.`);
 console.log("\nGood news! A bigger dinner table is available.");
 
 originalGuestList.unshift("Maham"); 
-originalGuestList.splice(2, 0, "Grace Hopper"); 
-originalGuestList.push("Alan Turing"); 
+originalGuestList.splice(2, 0, "alishba"); 
+originalGuestList.push("faiqa"); 
 
 console.log("\nUpdated Dinner Invitations:");
 originalGuestList.forEach((guest, index) => {
