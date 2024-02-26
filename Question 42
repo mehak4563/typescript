@@ -1,0 +1,17 @@
+function makeGreat(magicians: string[]): string[] {
+    const greatMagicians: string[] = magicians.map(magician => magician + ' the Great');
+    return greatMagicians;
+}
+
+function showMagicians(magicians: string[]): void {
+    for (const magician of magicians) {
+        console.log(magician);
+    }
+}
+
+const magicianNames: string[] = ['alesha', 'mehak', 'akbar', 'anum'];
+
+const greatMagicians: string[] = makeGreat(magicianNames);
+
+showMagicians(greatMagicians);
+
