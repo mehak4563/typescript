@@ -1,6 +1,5 @@
 let personName: string = "John Doe";
 
-// Print in lowercase
 console.log("Lowercase:", personName.toLowerCase());
 
 // Print in uppercase
