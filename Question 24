@@ -1,0 +1,35 @@
+let string1: string = 'hello';
+let string2: string = 'world';
+let number1: number = 5;
+let number2: number = 10;
+let array: number[] = [1, 2, 3, 4, 5];
+
+console.log("Test for equality with strings. I predict True.");
+console.log(string1 === 'hello');
+
+console.log("Test for inequality with strings. I predict False.");
+console.log(string2 !== 'world');
+
+console.log("Lower case function test. I predict True.");
+console.log(string1.toLowerCase() === 'hello');
+
+console.log("Numerical equality test. I predict False.");
+console.log(number1 === number2);
+
+console.log("Numerical greater than test. I predict False.");
+console.log(number1 > number2);
+
+console.log("Numerical less than or equal to test. I predict True.");
+console.log(number1 <= number2);
+
+console.log("And operator test. I predict True.");
+console.log((number1 < number2) && (string1 === 'hello'));
+
+console.log("Or operator test. I predict True.");
+console.log((number1 > number2) || (string1 === 'hello'));
+
+console.log("Item in array test. I predict True.");
+console.log(array.includes(3));
+
+console.log("Item not in array test. I predict False.");
+console.log(!array.includes(4));
