@@ -1,0 +1,18 @@
+function orderSandwich(...items: string[]): void {
+    console.log("Sandwich Summary:");
+    
+    if (items.length === 0) {
+        console.log("No items selected. Please choose some ingredients.");
+    } else {
+        console.log("Ingredients:");
+        for (const item of items) {
+            console.log("- " + item);
+        }
+    }
+
+    console.log("----------");
+}
+
+orderSandwich("Turkey", "Cheese", "Lettuce", "Tomato");
+orderSandwich("Ham", "Swiss Cheese", "Mustard");
+orderSandwich();  // No arguments
